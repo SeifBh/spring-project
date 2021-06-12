@@ -24,7 +24,9 @@ After that, respect this order to run the project
 
 # Problem : cannot access to spring dashboard from gateway , it doest not load 
 
-`dashboard:1 Access to XMLHttpRequest at 'http://localhost:9091/applications' from origin 'http://localhost:8083' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
+```js
+Access to XMLHttpRequest at 'http://localhost:9091/applications' from origin 'http://localhost:8083' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
 
 
 - Spring dashboard from gateway : http://localhost:8083/admin/dashboard
